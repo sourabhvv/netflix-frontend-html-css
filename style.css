@@ -1,0 +1,243 @@
+:root {
+    --primay-color:#e50914;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    font-family: 'Arial',sans-serif;
+    
+    color: #999;
+}
+ul{
+    list-style: none;
+
+}
+
+h1,h2,h3,h4{
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+p{
+    margin: 0.5rem 0;
+}
+img {
+    width: 100%;
+}
+.showcase{
+    width: 100%;
+    height:93vh;
+    position: relative;
+    background: rgba(0,0,0,0.6)url("background.jpg");
+    background-blend-mode: darken;
+    background-image:no-repeat;
+    
+    background-size: cover;
+}
+.showcase-top{
+    position: relative;
+    height: 90px;
+
+}
+.showcase-top img{
+    width: 170px;
+    position: absolute;
+    top: 30%;
+    left: 4%;
+
+}
+.showcase-top a{
+    position: absolute;
+    top:50%;
+    right: 0;
+    height:35px;
+    transform: translate(-50%,-50%);
+
+}
+label{
+    position: relative;
+    margin-left: -100px;
+}
+.showcase-top select{
+    text-align: center;
+    background-color: #160909;
+    border-radius: 4px;
+    position: absolute;
+    color: #fff;
+    top:33%;
+    right: 4.5rem;
+    height: 35px;
+    width: 90px;
+    margin-right: 9.5rem;
+    
+   
+
+}
+.showcase-content{
+    position: relative;
+    margin: auto;
+    padding: 128px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.showcase-content h1{
+   
+    font-size: 3.125rem;
+}
+.showcase-content p{
+    color: #fff;
+    margin: 1rem auto;
+    font-size: 1.625rem;
+}
+.showcase-content h3{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.placeLabel{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #160909;
+    font-size: 14px;
+}
+.nfInput .nfInputPlacement {
+    position: relative;
+    
+}
+
+.div1{
+    background-color: #222;
+    height: 10px;
+}
+.email-form-lockup{
+    text-align: center;
+}
+
+ul.structure{
+    padding: 0%;
+    margin: 0%;
+}
+.nfFormspace{
+margin-bottom: 10px;
+position: relative;
+height: 400px;
+}
+
+.nfFormspace input{
+    height: 100px;
+}
+
+input{
+    height: 60px;
+    width: 500px;
+    padding: 0%;
+    margin: 0%;
+    font-size: 26px;
+  
+}
+
+h3{
+    font-weight: 100;
+}
+.btnstart{
+    background-color: #e50914;
+    text-align: center;
+    font-weight: 300;
+    font-size: 26px;
+    color: #fff;
+    height: 60px;
+    width: 200px;
+}
+.main-content{
+    margin: 1rem;
+    padding: 1rem;
+}
+.btn {
+    display: inline-block;
+    background: var(--primay-color);
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 3.5rem;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0,0,0.0.46);
+    border-radius:4px;
+}
+.btn:hover{
+    opacity: 0.9;
+
+}
+.btn-rounded {
+    border-radius: 5px;
+
+}
+.btn-lg{
+    font-size: 2rem;
+    padding: 1.5rem 2.1rem;
+    text-transform: uppercase;
+}
+.image{
+   margin-top: -300px;
+    margin-left: 840px;
+    width: 500px;
+}
+.tv {
+    background-color: black;
+    text-align: left;
+ 
+}
+.tv h1{
+   padding-top: 150px;
+   padding-left: 200px;
+}
+.tv-title{
+  
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+h2{
+    font-weight: 100;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.dounload{
+    background-color: black;
+    text-align: right;
+
+}
+
+.dounload h1{
+    font-size: 3.15rem;
+   padding-top: 150px;
+   padding-right: 200px;
+}
+.dounload h2{
+    padding-right: 200px;
+    
+}
+.image2{
+    margin-top: -300px;
+    margin-left: 100px;
+    width: 500px;
+}
